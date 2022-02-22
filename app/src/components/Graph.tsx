@@ -360,7 +360,7 @@ function sanitizeMessage(
 }
 
 const edgeSource =
-  /Can not create edge `(?<edge>[^`]+)` with nonexistant source `(?<source>[^`]+)`/gm;
+  /Can not create edge `(?<edge>[^`]+)` with nonexistent source `(?<source>[^`]+)`/gm;
 
 function sanitizeStyleMessage(message: string) {
   if (/userStyle is not iterable/gi.test(message)) {
